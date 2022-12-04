@@ -1,0 +1,20 @@
+[package]
+name = "zpace"
+version = "0.1.0"
+authors = ["Jamal.P.T.Nesta <nestaj43@gmail.com"]
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+yew = { version = "0.20.0", features = ["csr"]}
+yew-router = "0.17.0"
+log = "0.4"
+muicss-yew = { git = "https://github.com/AlephAlpha/muicss-yew" }
+yew_icons = "0.7"
+yewdux = "0.9"
+wasm-logger = "0.2"
+yew-feather = "0.2.1"
+yew_prism = "0.4.2"
+yewtil = "0.4.0"
+[workspace]

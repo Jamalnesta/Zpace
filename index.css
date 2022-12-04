@@ -1,0 +1,43 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+};
+
+body {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+:root {
+    --clr: #BB86FC;
+    --clr2: #5d994f;
+    --bg: #23cea9; 
+}
+
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+html,
+i,
+img,
+label,
+li,
+nav,
+p,
+span,
+ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
